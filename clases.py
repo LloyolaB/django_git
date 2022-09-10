@@ -9,3 +9,4 @@ class Persona:
 
 persona1 = Persona("Juan", 20)
 print(persona1)
+persona2 = Persona("Pedro", 30)
