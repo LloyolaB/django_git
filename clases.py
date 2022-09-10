@@ -28,4 +28,7 @@ estudiante2 = Estudiante("Pedro", 31, "Python")
 print(persona1)
 print(estudiante1)
 persona3 = Persona("Ana", 40)
+<<<<<<< HEAD
 persona3 = Persona("Maria", "Perez", 40)
+=======
+>>>>>>> main
