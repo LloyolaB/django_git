@@ -9,6 +9,23 @@ class Persona:
 
 
 persona1 = Persona("Juan", 20)
+persona2 = Persona("Pancho", 30)
+persona3 = Persona("Ana", 40)
+
+
+class Estudiante(Persona):
+    def __init__(self, nombre, edad, curso):
+        super().__init__(nombre, edad)
+        self.curso = curso
+
+    def __str__(self):
+        return super().__str__() + " " + self.curso
+
+
+estudiante1 = Estudiante("Luis", 21, "GIT")
+estudiante2 = Estudiante("Pedro", 31, "Python")
+
 print(persona1)
-persona2 = Persona("Pedro", 30)
-persona3 = Persona("Maria","Perez", 40)
+print(estudiante1)
+persona3 = Persona("Ana", 40)
+persona3 = Persona("Maria", "Perez", 40)
